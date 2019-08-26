@@ -4,6 +4,7 @@ Theory behind deCheem
 The parts of deCheem
 ------------------------------------
 To perform any deCheemic analysis, you will need to make use of three things:
+
 * the deCheem Inference Engine
 * the deCheem Belief Language
 * a user interface.
