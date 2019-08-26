@@ -3,9 +3,9 @@ Quick-start guide to deCheem
 
 What is the deCheem Explorer?
 -----------------------------
-The deCheem Explorer helps us achieve *indisputable* conclusions to the most twisted and complex discussions one can imagine.
+The deCheem Explorer helps us achieve indisputable conclusions to the most twisted and complex discussions one can imagine.
 
-By extending our human limitations to deduction and memory, it allows us to **weaponise** nebulous concepts in the realm of beliefs by using them to force consensus-by-logic.
+By extending our human limitations to deduction and memory, it allows us to weaponise nebulous concepts in the realm of beliefs by using them to force consensus-by-logic.
 
 1 belief mentioning 4 situations generates 16 different scenarios and hundred arguments.
 
