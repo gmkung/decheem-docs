@@ -4,8 +4,8 @@ Frequently Asked Questions
 
 What is the best way to phrase a belief?
 --------------------------------------------
-Always be specific about what you want to say. 
-* Start the belief with 'the' where possible instead of 'a'.
+Always limit the scope of what you want to say as much as possible. 
+* Start the belief with 'the' where possible instead of 'a'. For example, say "The person", instead of "A person". The best way to describe an abstract person would actually be "The person in question". 
 * When in doubt, over-specify what you mean instead of under-specify.
 
 How does deCheem represent beliefs about different subjects without using IF-ELSE statements?
