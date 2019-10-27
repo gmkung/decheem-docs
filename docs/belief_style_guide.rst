@@ -44,3 +44,31 @@ Sentence 2: A situation in which **the person is unhappy** is **Always** a situa
 Sentence 3: A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
 
   Using the words "in question" to denote the person we are talking about this very moment, we distinguish it from the 'abstract person', allow us to introduce phrases like "the person in question is Bill Gates" in other beliefs that will help sharpen the identity of the person we are talking about. 
+
+
+
+Distinguish between "clustered AND" and "independent AND"
+----------------------------------------------------------
+The following two beliefs sound similar, but actually can mean very different things:
+
+  Situations in which **the cat is blue, furry** is **Always** a situation where **the cat is friendly**.
+  
+...versus...
+
+  Situations in which **the cat is blue** and **the cat is furry** is **Always** a situation where **the cat is friendly**.
+
+The first one implies that only when a cat is _both_ blue _and_ furry is it also friendly (meaning a cat that is only blue and not furry is not friendly).
+
+The second one implies that when a cat is _either_ blue _or_ furry, it is also friendly.
+
+
+Likewise, the same applies when 'and' is applied to the second part of the belief:
+
+  Situations in which **the cat is red** is **Never** a situation where **the cat is friendly, cute**.
+  
+...versus...
+
+  Situations in which **the cat is red** is **Never** a situation where **the cat is friendly** and **Never** a situation where **the cat is cute**.
+
+The first one implies that when a cat is red, it is not friendly _only when_ it is also not cute, and not cute _only when_ it is not friendly. If the cat is red and cute, it could still be either friendly or not friendly.
+The second one implies that when a cat is red, it will definitely be _neither_ cute _nor_ friendly.
