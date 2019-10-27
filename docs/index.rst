@@ -26,5 +26,6 @@ Please click on the Intro section below to learn more about the theory behind de
    
    intro_to
    faq
+   belief_style_guide
 
 .. footer:: DeCheem Footer
