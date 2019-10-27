@@ -33,15 +33,15 @@ A few guidelines:
 
 Use words like "the" and "in question" to narrow the scope of your belief, and refer to singular things instead of plural terms, as using the latter increases the chance of over-generalisations.
 
-Sentence 1: A situation in which **people are unhappy** is **Always** a situation where **work is not good**.*
+**Sentence 1**: A situation in which **people are unhappy** is **Always** a situation where **work is not good**.*
 
   'People' and 'Work' are used in a way that's too generic here. 'Work' here could mean an artwork, labour of a person or the work in the physics sense. 
     
-Sentence 2: A situation in which **the person is unhappy** is **Always** a situation where **the work of the person is not good**.
+**Sentence 2**: A situation in which **the person is unhappy** is **Always** a situation where **the work of the person is not good**.
 
   By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation. However, which person am I talking about?
 
-Sentence 3: A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
+**Sentence 3**: A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
 
   Using the words "in question" to denote the person we are talking about this very moment, we distinguish it from the 'abstract person', allow us to introduce phrases like "the person in question is Bill Gates" in other beliefs that will help sharpen the identity of the person we are talking about. 
 
@@ -51,13 +51,13 @@ Distinguish between "clustered AND" and "independent AND"
 ----------------------------------------------------------
 The following two beliefs sound similar, but actually can mean very different things:
 
-**Clustered AND**
+**Clustered 'AND'**
 
   Situations in which **the cat is blue, furry** is **Always** a situation where **the cat is friendly**.
   
 ...versus...
 
-**Independent AND**
+**Independent 'AND'**
 
   Situations in which **the cat is blue** and **the cat is furry** is **Always** a situation where **the cat is friendly**.
 
@@ -68,14 +68,17 @@ The second one implies that when a cat is *either* blue *or* furry, it is also f
 
 Likewise, the same applies when 'and' is applied to the second part of the belief:
 
-**Clustered AND**
+**Clustered 'AND'**
   Situations in which **the cat is red** is **Never** a situation where **the cat is friendly, cute**.
   
 ...versus...
 
-**Independent AND**
+**Independent 'AND'**
 
   Situations in which **the cat is red** is **Never** a situation where **the cat is friendly** and **Never** a situation where **the cat is cute**.
 
-The first one implies that when a cat is red, it is not friendly *only when* it is also not cute, and not cute *only when* it is not friendly. If the cat is red and cute, it could still be either friendly or not friendly.
+The first one implies that when a cat is red, it is not friendly *only when* it is also not cute, and not cute *only when* it is not friendly. 
+
+If the cat is red and cute, it could still be either friendly or not friendly.
+
 The second one implies that when a cat is red, it will definitely be *neither* cute *nor* friendly.
