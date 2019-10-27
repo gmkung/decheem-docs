@@ -1,6 +1,17 @@
 deCheem belief style guide
 ==================================
-Here you will find a number of best practices on how to phrase your beliefs in order to build the
+Here you will find a number of best practices on how to phrase your beliefs in order to build the most scalable belief base possible. 
+
+How do I construct a deCheem belief?
+--------------------------------------------
+Entering new deCheem beliefs is simple: you just need to phrase your beliefs in terms of 'situations', and use the words 'Always', 'Possibly' or 'Never' to add what the situation should or should not be.
+
+Here are a few examples:
+* **Regular speech**:
+  * People who have diabetes should eat less sugar
+* **deCheem belief**:
+  * Situations in which **the person has diabetes** is **always** a situation where **the person should eat less sugar**.
+
 
 What is the best way to phrase a belief?
 --------------------------------------------
