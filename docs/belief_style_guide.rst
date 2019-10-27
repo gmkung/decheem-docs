@@ -32,14 +32,14 @@ A few guidelines:
 **Narrow but Deep**
 Use words like "the" and "in question" to narrow the scope of your belief, and refer to singular things instead of plural terms, as using the latter increases the chance of over-generalisations.
 
-* A situation in which **people are unhappy** is **Always** a situation where **work is not good**.
+Sentence 1: A situation in which **people are unhappy** is **Always** a situation where **work is not good**.*
 
   'People' and 'Work' are used in a way that's too generic here. 'Work' here could mean an artwork, labour of a person or the work in the physics sense. 
     
-* A situation in which **the person is unhappy** is **Always** a situation where **the work of the person is not good**.
+Sentence 2: A situation in which **the person is unhappy** is **Always** a situation where **the work of the person is not good**.
 
   By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation. However, which person am I talking about?
 
-* A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
+Sentence 3: A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
 
   By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation. However, which person am I talking about?
