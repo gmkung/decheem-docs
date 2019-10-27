@@ -51,24 +51,31 @@ Distinguish between "clustered AND" and "independent AND"
 ----------------------------------------------------------
 The following two beliefs sound similar, but actually can mean very different things:
 
+**Clustered AND**
+
   Situations in which **the cat is blue, furry** is **Always** a situation where **the cat is friendly**.
   
 ...versus...
 
+**Independent AND**
+
   Situations in which **the cat is blue** and **the cat is furry** is **Always** a situation where **the cat is friendly**.
 
-The first one implies that only when a cat is _both_ blue _and_ furry is it also friendly (meaning a cat that is only blue and not furry is not friendly).
+The first one implies that only when a cat is *both* blue *and* furry is it also friendly (meaning a cat that is only blue and not furry is not friendly).
 
-The second one implies that when a cat is _either_ blue _or_ furry, it is also friendly.
+The second one implies that when a cat is *either* blue *or* furry, it is also friendly.
 
 
 Likewise, the same applies when 'and' is applied to the second part of the belief:
 
+**Clustered AND**
   Situations in which **the cat is red** is **Never** a situation where **the cat is friendly, cute**.
   
 ...versus...
 
+**Independent AND**
+
   Situations in which **the cat is red** is **Never** a situation where **the cat is friendly** and **Never** a situation where **the cat is cute**.
 
-The first one implies that when a cat is red, it is not friendly _only when_ it is also not cute, and not cute _only when_ it is not friendly. If the cat is red and cute, it could still be either friendly or not friendly.
-The second one implies that when a cat is red, it will definitely be _neither_ cute _nor_ friendly.
+The first one implies that when a cat is red, it is not friendly *only when* it is also not cute, and not cute *only when* it is not friendly. If the cat is red and cute, it could still be either friendly or not friendly.
+The second one implies that when a cat is red, it will definitely be *neither* cute *nor* friendly.
