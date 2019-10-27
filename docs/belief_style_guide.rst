@@ -42,7 +42,7 @@ Use words like "the" and "in question" to narrow the scope of your belief, and r
     
 **Sentence 2**: A situation in which **the person is unhappy** is **Always** a situation where **the work of the person is not good**.
 
-  By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation. However, which person am I talking about?
+  By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation. However one question remains: which person am I talking about?
 
 **Sentence 3**: A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
 
