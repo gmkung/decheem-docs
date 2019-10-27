@@ -13,6 +13,7 @@ Here are a few examples:
 * **deCheem belief**:
    * Situations in which **the person has diabetes** is **always** a situation where **the person should eat less sugar**.
 
+
 * **Regular speech**:
    * If the climate is cold, people should not be trying to plant coconut trees
 * **deCheem belief**:
