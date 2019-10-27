@@ -10,14 +10,13 @@ Here are a few examples:
 
 * **Regular speech**:
    * People who have diabetes should eat less sugar
-  
 * **deCheem belief**:
    * Situations in which **the person has diabetes** is **always** a situation where **the person should eat less sugar**.
 
 * **Regular speech**:
-  * If the climate is cold, people should not be trying to plant coconut trees
+   * If the climate is cold, people should not be trying to plant coconut trees
 * **deCheem belief**:
-  * Situations in which **the climate is cold** is **never** a situation where **the person should be trying to plant coconut trees**.
+   * Situations in which **the climate is cold** is **never** a situation where **the person should be trying to plant coconut trees**.
 
 
 What is the best way to phrase a belief?
