@@ -28,14 +28,17 @@ In the deCheem world, general rules are derived from the exceptions. This means 
 Beliefs are also meant to be correct even read just by itself, so the only way to bring context into a short belief is to be specific.
 
 A few guidelines:
+
 **Narrow but Deep**
 Use words like "the" and "in question" to narrow the scope of your belief, and refer to singular things instead of plural terms, as using the latter increases the chance of over-generalisations.
 
 * A situation in which **people are unhappy** is **Always** a situation where **work is not good**.
+
 ..
   'People' and 'Work' are used in a way that's too generic here. 'Work' here could mean an artwork, labour of a person or the work in the physics sense. 
     
 * A situation in which **the person is unhappy** is **Always** a situation where **the work of the person in question is not good**.
+
 ..
   By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation.
 
