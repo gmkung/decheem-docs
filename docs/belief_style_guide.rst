@@ -42,4 +42,4 @@ Sentence 2: A situation in which **the person is unhappy** is **Always** a situa
 
 Sentence 3: A situation in which **the person in question is unhappy** is **Always** a situation where **the work of the person in question is not good**.
 
-  By introducing 'the' and transforming plural to specific singular (e.g. 'people' to 'person'), the belief lends itself to being used in more situations without risk of generalisation. However, which person am I talking about?
+  Using the words "in question" to denote the person we are talking about this very moment, we distinguish it from the 'abstract person', allow us to introduce phrases like "the person in question is Bill Gates" in other beliefs that will help sharpen the identity of the person we are talking about. 
