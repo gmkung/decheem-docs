@@ -7,6 +7,7 @@ How do I construct a deCheem belief?
 Entering new deCheem beliefs is simple: you just need to phrase your beliefs in terms of 'situations', and use the words 'Always', 'Possibly' or 'Never' to add what the situation should or should not be.
 
 Here are a few examples:
+
 * **Regular speech**:
   * People who have diabetes should eat less sugar
   
