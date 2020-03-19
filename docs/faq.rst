@@ -1,5 +1,10 @@
 Frequently Asked Questions
 ==================================
+What are the most important characteristics to look for a framework for managing legal or philosophical knowledge bases?
+--------------------------------------------
+Here are a list of considerations taken into account during the design process of deCheem.
+* Syntax-less knowledge entry.
+  This means that 
 
 
 What is the best way to phrase a belief?
@@ -84,7 +89,3 @@ Should we use complex beliefs or try to break them down?
 --------------------------------------------
 deCheem Inference Engine doesn't care if you are long-winded or not, but humans do. Try to deconstruct your beliefs into simpler ones if possible for readability of your arguments.
 
-
-What is the difference between regular and cluster 'and'.
---------------------------------------------
-...
