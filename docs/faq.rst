@@ -73,7 +73,7 @@ However, when it comes to how conclusions are generated (aka the inference engin
 Why is OWL or RDF-based formats not used for representing beliefs or statements in deCheem?
 ---------------------------------------------
 `OWL Web Ontology Language <https://www.w3.org/TR/owl-features/>`_ and RDF make heavy use of object properties and relationship declarations (e.g. subClassOf, oneOf, childOf) to represent information, which takes away from the typelessness that deCheem trieds to strive for.
-Other formats or framework that share the same pitfalls are for example `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_, 
+Other formats or framework that share the same pitfalls are for example `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_ and `Protége <https://protege.stanford.edu/>`_. 
 
 Why is `AceRules <https://github.com/tkuhn/AceRules>`_ not suitable for this?
 ----------------------------------------------
