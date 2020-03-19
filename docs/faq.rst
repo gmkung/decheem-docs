@@ -3,6 +3,7 @@ Frequently Asked Questions
 What are the most important characteristics to look for a framework for managing legal or philosophical knowledge bases?
 --------------------------------------------
 Here are a list of considerations taken into account during the design process of deCheem.
+
 * Syntax-less knowledge entry.
   This means that 
 
