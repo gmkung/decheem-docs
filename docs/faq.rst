@@ -12,11 +12,13 @@ Here are a list of considerations that were taken into account during the design
   
 * **Sequence-insensitive knowledge acquisition**
 
-  * Expert systems are only considered useful if it can produce accurate advice faster and cover knowledge areas larger than any human can. To achieve this, acquiring and assimilating the knowledge from a large number of sources is essential. To enable large scale knowledge aggregation to take place efficiently, it is crucial that the sequence in which knowledge is entered into the system has no effect on it's usefulness later on. 
+  * Expert systems are only considered useful if it can produce accurate advice faster and cover knowledge areas larger than any human can. 
+  * To achieve this, acquiring and assimilating the knowledge from a large number of sources is essential. To enable large scale knowledge aggregation to take place efficiently, it is crucial that the sequence in which knowledge is entered into the system has no effect on it's usefulness later on. 
 
 * **Deterministic**
 
-  * Probabilistic methods (e.g. text-clustering, correlation-based) do not have a lot of use in philosophical and legal settings, as saying that something is 'maybe' or 'likely' true does not allow one to settle an argument completely. it is therefore important that the framework deduces conclusions, rather than makes a guess of what it is (regardless of the likelihood that it is correct).
+  * Probabilistic methods (e.g. text-clustering, correlation-based) do not have a lot of use in philosophical and legal settings, as saying that something is 'maybe' or 'likely' true does not allow one to settle an argument completely. 
+  * It is therefore important that the framework deduces conclusions, rather than makes a guess of what it is (regardless of the likelihood that it is correct).
 
 * **Syntax-less knowledge entry**
 
@@ -24,19 +26,21 @@ Here are a list of considerations that were taken into account during the design
   
 * **Directionless reasoning**
 
-  * `Forward and backward chaining <https://www.javatpoint.com/forward-chaining-and-backward-chaining-in-ai>`_ are functionalities often looked at in expert systems, but any system that considers 'chaining' as having more than one type will eventually be insufficiently generic for philosophical and legal use cases.
+  * `Forward and backward chaining <https://www.javatpoint.com/forward-chaining-and-backward-chaining-in-ai>`_ are functionalities often looked at in expert systems, but any system that predefines types for reasoning/chaining will eventually be insufficiently generic for philosophical and legal use cases.
   
 * **Implicit deduction**
 
-  * A good expert system should be able to deduce as much information from a piece of documented knowledge as possible. Harvesting implicit assumptions out of a documented statement is therefore crucial, allowing statements to go beyond serving as declaration of relationships but also as logical assertions that can be readily used for deduction from any possible angle.
+  * A good expert system should be able to read what is explicitly mentioned in piece of documented knowledge, but also what is implicit. This allows a single statement to be more than just a declaration of a single relationship, but of all possible logically equivalent permutations of that relationship.
 
 How does deCheem deal with forward and backward chaining?
 --------------------------------------------
-deCheem intentionally does away with the technical distinction between these two forms of 'chaining'. In the spirit of 'typelessness', deCheem instead has just one way of exploring situations, without taking into account if it's the desired starting or ending situation. The degree to which a particular explore is doing 'forward', 'backward' (or mixed??) chaining is determined by the human language used to describe those situations.
+deCheem intentionally does away with the technical distinction between these two forms of 'chaining'. In the spirit of 'typelessness', deCheem instead has just one way of exploring situations, without taking into account if it's the desired starting or ending situation. 
+
+The degree to which a particular explore is doing 'forward', 'backward' (or mixed??) chaining is determined by the human language used to describe those situations.
 
 What is the best way to phrase a belief?
 --------------------------------------------
-Refer to the style guide on this documentation website for extension guidelines. 
+Refer to the `style guide <https://decheem.readthedocs.io/en/latest/belief_style_guide.html>`_ on this documentation website for extension guidelines. 
 
 How does deCheem represent beliefs about different subjects without using conditional/IF-ELSE statements?
 --------------------------------------------
@@ -68,12 +72,14 @@ Prolog makes a distinction between 'rules' and 'facts', and that distinction tak
 Why is the Carneades system not useable for this?
 --------------------------------------------
 When it comes to how knowledge is represented, the `Carneades argumentation system <https://carneades.github.io/about-carneades/>`_ is one of the closest to the deCheem belief language. Subjects and predicates are represented together in 'statements' (belief properties in deCheem's terms), which is one step closer to true 'typelessness'. Carneades also represents only relations between statements in a single direction, while deCheem does that but also allows statements to have true modality (e.g. represent assertions that are true in all cases/directions).
+
 However, when it comes to how conclusions are generated (aka the inference engine), Carneades takes a graph-based approached (e.g. linking nodes to each other through edges) while deCheem goes for a set-based approach. Graphs are meant to show (cor)relation, and it can at best only deal with forward-chaining use-cases, and only for the situations that have been explictly documented either in part or full. deCheem does away with directionality altogether thanks to it's set-based approach, and also allows for deduction of all possible implicit conclusions.
 
-Why is OWL or RDF-based formats not used for representing beliefs or statements in deCheem?
+Why are OWL or RDF-based formats not used for representing beliefs or statements in deCheem?
 ---------------------------------------------
 `OWL Web Ontology Language <https://www.w3.org/TR/owl-features/>`_ and RDF make heavy use of object properties and relationship declarations (e.g. subClassOf, oneOf, childOf) to represent information, which takes away from the typelessness that deCheem trieds to strive for.
-Other formats or framework that share the same pitfalls are for example `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_ and `Protége <https://protege.stanford.edu/>`_. 
+
+Other formats or frameworks that share the same pitfalls are for example `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_ and `Protége <https://protege.stanford.edu/>`_. 
 
 Why is `AceRules <https://github.com/tkuhn/AceRules>`_ not suitable for this?
 ----------------------------------------------
@@ -86,7 +92,7 @@ Working with beliefs with a temporal or numerical nature is possible, but cumber
 
 deCheem does allow for plugins to be added on top as pre-processors, allowing data input sources that accepts graduated input (e.g. time, amounts, decimals) to be translated to input congruent with the set-based system of deCheem.
 
-How do you compartmentalise belief-systems?
+How do you compartmentalise belief-systems in deCheem?
 --------------------------------------------
 If you want to categorise belief-systems based on their provenance, simply add that as an additional description of the situation.
 
@@ -104,19 +110,16 @@ Why doesn't deCheem use any form of weighting?
 Using weightage/votes to determine the correctness of a belief is fundamentally against the idea of deCheem, which is to use logical deduction to arrive at facts about our world. 
 If you find yourself struggling with the correctness of a certain belief, think about a specific subset of situations with this belief that you for sure is correct, and document that instead.
 
-But 'not good' is not necessarily 'bad', so how can things be binary.
+Since 'not good' is not necessarily 'bad', how can things be binary?
 --------------------------------------------
-Indeed, 'not good' is not the same as 'bad', just like 'not hot' is not necessarily 'cold'. deCheem leaves it to the user to determine what the opposite of each situation is, be it a new situation or simply the negation of the former.
+Indeed, 'not good' is not the same as 'bad', just like 'not hot' is not necessarily 'cold'. deCheem leaves it to the user to determine what the opposite of each situation is, be it as a new situation or simply the negation of the former.
 
 How do you deal with 'scales of things' or 'rankings' or 'priorities'.
 --------------------------------------------
 'Scales' have similar pitfalls to weightage - something has to be more important than everything else, and when it's not, then something else is. This means that any arbitrary ranking-list can be expressed as a series of beliefs about the utmost importance of a certain thing under certain circumstances.
 
-How efficient is deCheem?
+How efficient is deCheem in dealing with large numbers of beliefs and arguments?
 --------------------------------------------
-deCheem is the most efficient way of generating arguments. 3 beliefs relating 4 situations generates 16 different situations and even more arguments. 
+deCheem uses set-theory to perform deduction, meaning it is able to perform implicit deduction without the computational overhead of generating 2^n scenarios or relationships in order to achieve it.
 
-Should we use complex beliefs or try to break them down?
---------------------------------------------
-deCheem Inference Engine doesn't care if you are long-winded or not, but humans do. Try to deconstruct your beliefs into simpler ones if possible for readability of your arguments.
-
+The limitations on the number of beliefs that can be in a belief base is only limited by the RAM available on your computer. As for the computability of the inference, deCheem can generate arguments with up to 500000 chained implications easily on any modern laptop.
