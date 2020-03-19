@@ -1,13 +1,24 @@
 Frequently Asked Questions
 ==================================
-What are the most important characteristics to look for a framework for managing legal or philosophical knowledge bases?
+What are the most important characteristics to look for in the ideal expert system for managing legal or philosophical knowledge?
 --------------------------------------------
 Here are a list of considerations taken into account during the design process of deCheem.
 
-* Syntax-less knowledge entry.
+* **Type-less knowledge entry**
 
-  * This means that 
+  * A word or phrase can mean different things in different contexts (e.g. club in golf club or disco club?), so any form of 'type' declaration (in the broadest sense of the word) will inevitably limit the ability of that word to take on different meanings (and hence roles) in future situations.
+  
+* **Sequence-insensitive knowledge acquisition**
 
+  * Expert systems are only considered useful if it can produce accurate advice faster and cover knowledge areas larger than any human can. To achieve this, acquiring and assimilating the knowledge from a large number of sources is essential. To enable large scale knowledge aggregation to take place efficiently, it is crucial that the sequence in which knowledge is entered into the system has no effect on it's usefulness later on. 
+
+* **Deterministic**
+
+  * Probabilistic methods (e.g. text-clustering, correlation-based) do not have a lot of use in philosophical and legal settings, as saying that something is 'maybe' or 'likely' true does not allow one to settle an argument completely. it is therefore important that the framework deduces conclusions, rather than makes a guess of what it is (regardless of the likelihood that it is correct).
+
+* **Syntax-less knowledge entry**
+
+  * For expert systems to be truly useful in the fields of law and philosophy, it should not enforce specific syntax that the user needs to learn in order to document their knowledge. Not only does specific syntax decrease the usability of the system, it also can be seen as a form of 'typing', which has the downsides described above.
 
 What is the best way to phrase a belief?
 --------------------------------------------
