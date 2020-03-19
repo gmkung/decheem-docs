@@ -63,9 +63,9 @@ Why can't deCheem automatically solve all confusion in conversations?
 deCheem shifts the complexity of reasoning out of code and math and into the realm of language.
 While this grants it enables the user to utilise any corner of his/her vocabulary, it cannot help the user extend his/her vocabulary.
 
-Why doesn't deCheem use weighting? The need to weight is a symptom of overgeneralisation. Instead of wondering whether something is always true, deCheem 
+Why doesn't deCheem use weighting? 
 --------------------------------------------
-Using weightage/votes to determine the correctness of a belief is fundamentally against the idea of deCheem, which is to use logical induction to arrive at facts about our world. 
+Using weightage/votes to determine the correctness of a belief is fundamentally against the idea of deCheem, which is to use logical deduction to arrive at facts about our world. 
 If you find yourself struggling with the correctness of a certain belief, think about a specific subset of situations with this belief that you for sure is correct, and document that instead.
 
 But 'not good' is not necessarily 'bad', so how can things be binary.
