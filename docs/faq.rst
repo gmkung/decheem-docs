@@ -1,8 +1,5 @@
 Frequently Asked Questions
 ==================================
-What are the most important characteristics to look for in the ideal expert system for managing legal or philosophical knowledge?
---------------------------------------------
-Here are a list of considerations taken into account during the design process of deCheem.
 
 What is the best way to phrase a belief?
 --------------------------------------------
@@ -10,6 +7,11 @@ Always limit the scope of what you want to say as much as possible.
 
 * Start the belief with 'the' where possible instead of 'a'. For example, say "The person", instead of "A person". The best way to describe an abstract person would actually be "The person in question". 
 * When in doubt, over-specify what you mean instead of under-specify.
+
+What are the most important characteristics to look for in the ideal expert system for managing legal or philosophical knowledge?
+--------------------------------------------
+
+Here are a list of considerations that were taken into account during the design process of deCheem.
 
 * **Type-less knowledge entry**
 
@@ -67,15 +69,9 @@ Why is the Carneades system not useable for this?
 When it comes to how knowledge is represented, the `Carneades argumentation system <https://carneades.github.io/about-carneades/>`_ is one of the closest to the deCheem belief language. Subjects and predicates are represented together in 'statements' (belief properties in deCheem's terms), which is one step closer to true 'typelessness'. Carneades also represents only relations between statements in a single direction, while deCheem does that but also allows statements to have true modality (e.g. represent assertions that are true in all cases/directions).
 However, when it comes to how conclusions are generated (aka the inference engine), Carneades takes a graph-based approached (e.g. linking nodes to each other through edges) while deCheem goes for a set-based approach. Graphs are meant to show (cor)relation, and it can at best only deal with forward-chaining use-cases, and only for the situations that have been explictly documented either in part or full. deCheem does away with directionality altogether thanks to it's set-based approach, and also allows for deduction of all possible implicit conclusions.
 
-What can deCheem not deal with? (conditionals based on a situation)
+What can deCheem not deal with (natively)?
 --------------------------------------------
-The current 'flat' implementation of deCheem allows for almost all conditionals to be stated, except those that pivot on a single condition.
-See this example, which cannot be constructed without resorting to IF-ELSE statements.
-```
-IF (pigs-are-cute) be never (sky-is-blue)
-  then:
-  LET (!pigs-are-cute) be (!sky-is-blue)
-```
+Working with beliefs with a temporal or numerical nature is possible, but cumbersome without tools to help generate the arbitrary number of beliefs needed to cover temporal or numeric graduations.
 
 How do you compartmentalise belief-systems?
 --------------------------------------------
