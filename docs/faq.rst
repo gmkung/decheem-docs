@@ -5,6 +5,7 @@ What are the most important characteristics to look for a framework for managing
 Here are a list of considerations taken into account during the design process of deCheem.
 
 * Syntax-less knowledge entry.
+
   * This means that 
 
 
