@@ -6,7 +6,7 @@ Here are a list of considerations taken into account during the design process o
 
 * **Type-less knowledge entry**
 
-  * A word or phrase can mean different things in different contexts (e.g. club in golf club or disco club?), so any form of 'type' declaration (in the broadest sense of the word) will inevitably limit the ability of that word to take on different meanings (and hence roles) in future situations.
+  * A word or phrase can mean different things in different contexts (e.g. club as in golf club or disco club), so any form of 'type' declaration (in the broadest sense of the word) will inevitably limit the ability of that word to take on different meanings (and hence roles) in future situations.
   
 * **Sequence-insensitive knowledge acquisition**
 
