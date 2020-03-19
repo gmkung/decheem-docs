@@ -60,6 +60,7 @@ Why are decision-trees not suitable for this?
 Decision trees are by nature hierachical and operates on branches. If an idea in a deep branch has links to another idea in an earlier branch, there is no efficient way to represent that relationship. Also, if the definition of a decision point at an earlier branch is changed, the validity of the decisions branches lower down will all be affected, which limits the maintainability of this solution.
 
 Frameworks that share the same method and therefore the same pitfalls when used as philosophy and legal expert systems are: 
+
 * `Decision Model and Notation <https://en.wikipedia.org/wiki/Decision_Model_and_Notation#DMN_BPMN_example>`_ (DMN)
 * `Argument-maps <https://en.wikipedia.org/wiki/Argument_map>`_ 
 
@@ -79,7 +80,10 @@ Why are OWL or RDF-based formats not used for representing beliefs or statements
 ---------------------------------------------
 `OWL Web Ontology Language <https://www.w3.org/TR/owl-features/>`_ and RDF make heavy use of object properties and relationship declarations (e.g. subClassOf, oneOf, childOf) to represent information, which takes away from the typelessness that deCheem trieds to strive for.
 
-Other formats or frameworks that share the same pitfalls are for example `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_ and `Protége <https://protege.stanford.edu/>`_. 
+Other formats or frameworks that share the same pitfalls are :
+
+* `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_
+* `Protége <https://protege.stanford.edu/>`_. 
 
 Why is `AceRules <https://github.com/tkuhn/AceRules>`_ not suitable for this?
 ----------------------------------------------
