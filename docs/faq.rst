@@ -4,6 +4,13 @@ What are the most important characteristics to look for in the ideal expert syst
 --------------------------------------------
 Here are a list of considerations taken into account during the design process of deCheem.
 
+What is the best way to phrase a belief?
+--------------------------------------------
+Always limit the scope of what you want to say as much as possible. 
+
+* Start the belief with 'the' where possible instead of 'a'. For example, say "The person", instead of "A person". The best way to describe an abstract person would actually be "The person in question". 
+* When in doubt, over-specify what you mean instead of under-specify.
+
 * **Type-less knowledge entry**
 
   * A word or phrase can mean different things in different contexts (e.g. club as in golf club or disco club), so any form of 'type' declaration (in the broadest sense of the word) will inevitably limit the ability of that word to take on different meanings (and hence roles) in future situations.
@@ -20,12 +27,9 @@ Here are a list of considerations taken into account during the design process o
 
   * For expert systems to be truly useful in the fields of law and philosophy, it should not enforce specific syntax that the user needs to learn in order to document their knowledge. Not only does specific syntax decrease the usability of the system, it also can be seen as a form of 'typing', which has the downsides described above.
 
-What is the best way to phrase a belief?
+How does deCheem deal with forward and backward chaining?
 --------------------------------------------
-Always limit the scope of what you want to say as much as possible. 
-
-* Start the belief with 'the' where possible instead of 'a'. For example, say "The person", instead of "A person". The best way to describe an abstract person would actually be "The person in question". 
-* When in doubt, over-specify what you mean instead of under-specify.
+deCheem intentionally does away with the technical distinction between these two forms of 'chaining'. In the spirit of 'type-less-ness', deCheem instead has just one way of exploring situations, without taking into account if it's the desired starting or ending situation. The degree to which a particular explore is doing 'forward', 'backward' (or mixed??) chaining is determined by the human language used to describe those situations.
 
 How does deCheem represent beliefs about different subjects without using IF-ELSE statements?
 --------------------------------------------
