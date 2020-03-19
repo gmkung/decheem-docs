@@ -26,10 +26,14 @@ Always limit the scope of what you want to say as much as possible.
 * **Syntax-less knowledge entry**
 
   * For expert systems to be truly useful in the fields of law and philosophy, it should not enforce specific syntax that the user needs to learn in order to document their knowledge. Not only does specific syntax decrease the usability of the system, it also can be seen as a form of 'typing', which has the downsides described above.
+  
+* **Directionless reasoning**
+
+  * `Forward and backward chaining <https://www.javatpoint.com/forward-chaining-and-backward-chaining-in-ai>`_ are functionalities often looked at in expert systems, but any system that considers 'chaining' as having more than one type will eventually be insufficiently generic for philosophical and legal use cases.
 
 How does deCheem deal with forward and backward chaining?
 --------------------------------------------
-deCheem intentionally does away with the technical distinction between these two forms of 'chaining'. In the spirit of 'type-less-ness', deCheem instead has just one way of exploring situations, without taking into account if it's the desired starting or ending situation. The degree to which a particular explore is doing 'forward', 'backward' (or mixed??) chaining is determined by the human language used to describe those situations.
+deCheem intentionally does away with the technical distinction between these two forms of 'chaining'. In the spirit of 'typelessness', deCheem instead has just one way of exploring situations, without taking into account if it's the desired starting or ending situation. The degree to which a particular explore is doing 'forward', 'backward' (or mixed??) chaining is determined by the human language used to describe those situations.
 
 How does deCheem represent beliefs about different subjects without using IF-ELSE statements?
 --------------------------------------------
@@ -42,9 +46,9 @@ To analyse 20 different possible situation types, we would need a table with 2^2
 
 Why are graph databases not suitable for this?
 --------------------------------------------
-Graph databases sees things as nodes with fixed relationships. deCheem forms relationships between different nodes based on certain conditions, and the inference layer is not native to graph databases.
+Graph databases sees things as nodes with fixed relationships. deCheem forms relationships between different nodes based on certain conditions, and the inference engine layer is not native to graph databases.
 
-Why is a decision-tree not useable for this?
+Why are decision-trees not useable for this?
 --------------------------------------------
 Decision trees operates on branches. If an idea in a deep branch has links to another idea in an earlier branch, there is no efficient way to represent that relationship.
 
@@ -54,13 +58,14 @@ Argument-maps are similar to decision trees and therefore share the same pitfall
 
 Why is Prolog not useable for this?
 --------------------------------------------
-Prolog is great for quantitative inferences and relationship deduction when properties share only inherit properties from a single parent.
-However, numerical methods are useless against analysis of beliefs, and the ability for beliefs to inherit properties from any number of situations makes Prolog a bad choice to use for belief analysis.
+`Prolog <https://en.wikipedia.org/wiki/Prolog>`_ is great for quantitative inferences and relationship deduction when properties share only inherit properties from a single parent. 
+However, numerical methods are useless against analysis of beliefs, and the need for beliefs to take on different meanings (aka inherit properties) from any number of situations makes Prolog a bad choice to use for belief analysis.
+Prolog makes a distinction between 'rules' and 'facts', and that distinction takes away from the 'type-less' nature of a good general expert system.
 
 Why is the Carneades system not useable for this?
 --------------------------------------------
-??
-
+When it comes to how knowledge is represented, the `Carneades argumentation system <https://carneades.github.io/about-carneades/>`_ is one of the closest to the deCheem belief language. Subjects and predicates are represented together in 'statements' (belief properties in deCheem's terms), which is one step closer to true 'typelessness'. Carneades also represents only relations between statements in a single direction, while deCheem does that but also allows statements to have true modality (e.g. represent assertions that are true in all cases/directions).
+However, when it comes to how conclusions are generated (aka the inference engine), Carneades takes a graph-based approached (e.g. linking nodes to each other through edges) while deCheem goes for a set-based approach. Graphs are meant to show (cor)relation, and it can at best only deal with forward-chaining use-cases, and only for the situations that have been explictly documented either in part or full. deCheem does away with directionality altogether thanks to it's set-based approach, and also allows for deduction of all possible implicit conclusions.
 
 What can deCheem not deal with? (conditionals based on a situation)
 --------------------------------------------
