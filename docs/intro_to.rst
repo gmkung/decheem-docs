@@ -34,9 +34,11 @@ deCheemQL samples
 
 Here are examples of how deCheem beliefs are stored and queried/explored in order to get the inference results we need.
 
-**Belief Base sampe**
+**Belief Base sample**
 
-The following is an example of how a belief base with 6 beliefs is stored in a data base. You are free to store it in any database type you want as long as the structure below is respected when the belief base is stored and retrieved.
+The following is an example of how a belief base with 6 beliefs is stored in a data base. 
+
+You are free to store it in any database type you want as long as the object structure below is respected when the belief base is stored and retrieved.
 
 .. code-block:: json
 
@@ -176,3 +178,59 @@ The following is an example of how a belief base with 6 beliefs is stored in a d
     "beliefbaseowner": "guangmian@gmail.com"
   }
 
+**Explore query**
+
+You submit a request to the deCheem Inference Engine in order to infer what the implications of an initial situation will be. 
+The deCheem Inference Engine takes two arguments: the deCheem Belief Base object as show above, and the simple object below representing the situation you want to explore. 
+
+The actual code of the deCheem Inference Engine will be made public at a later stage.
+
+.. code-block:: json 
+
+  {
+    "The philosophy of Thomas Hobbes is being considered.": true,
+    "The philosophy of John Locke is being considered.": true,
+    "The world is in the state of nature.": true,
+    "The resources in the world is limitless.        ": true,
+    "The individual's liberties are constrained by their innate morality.": false
+  }
+
+**Explore results**
+
+After the Inference Engine has received the Explore object and the Belief Base to base the inference on, it processes the situation and returns a result object like the one below:
+
+.. code-block:: json
+
+  {
+    "resultCode": "Success",
+    "resultReason": "Successful with no errors found",
+    "exploreResults": {
+      "possible": true,
+      "reasoningSteps": [
+        {
+          "deducedProperty": {
+            "The individual has liberties.": false
+          },
+          "sourceBeliefId": "c1667128-8f29-4c29-82dc-55af15127a3b"
+        },
+        {
+          "deducedProperty": {
+            "The world is in a state of war.": false
+          },
+          "sourceBeliefId": "c6ac2033-905d-4e8b-bcb8-24b6c4c19b0c"
+        },
+        {
+          "deducedProperty": {
+            "The collective in question is rational.": true
+          },
+          "sourceBeliefId": "134c21d4-7005-4bdc-9ddc-e39991223328"
+        },
+        {
+          "deducedProperty": {
+            "Force is deployed to bring about peace.": true
+          },
+          "sourceBeliefId": "134c21d4-7005-4bdc-9ddc-e39991223328"
+        }
+      ]
+    }
+  }
