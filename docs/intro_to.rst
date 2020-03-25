@@ -39,6 +39,7 @@ Here are examples of how deCheem beliefs are stored and queried/explored in orde
 The following is an example of how a belief base with 6 beliefs is stored in a data base. You are free to store it in any database type you want as long as the structure below is respected when the belief base is stored and retrieved.
 
 .. code-block:: json
+
   {
     "then": [
       {
