@@ -9,9 +9,9 @@ To perform any deCheemic analysis, you will need to make use of three things:
 * the deCheem Belief Language
 * a user interface.
 
-The deCheem Inference Engine is based on set-theory. It imagines the world as the universal set of situations, and beliefs as rules that asserts claims about the existence or non-existence of subsets of these situations. 
+The deCheem Inference Engine is makes use of set-theory for reasoning. It imagines the world as the universal set of situations, and beliefs as rules that asserts claims about the existence or non-existence of subsets of these situations. 
 
-The deCheem Belief Language is designed to be as close to natural language as possible. It is purposely lacking any forms of data type definitions in order to not obfuscate the descriptive power of natural language with pre-defined categorisations. This is why deCheemBL statements reads like human language, and is also interpreted computationally exactly like how it reads in human language.
+The deCheem Belief Language is designed to be as close to natural language as possible. It eschews all forms of data type definitions in order to fully expose the expressive power of natural language. This is why deCheemBL statements reads like human language, and is also interpreted computationally exactly like how it reads in human language.
 
 User interfaces uses deCheemBL to interact with instances of the deCheem IE in the backend, allowing one to explore belief systems intuitively without having to deal with any complicated syntax or code.
 
