@@ -28,3 +28,150 @@ Sheet A shows how 6 different beliefs translate to statements about the (non-)ex
 Sheet B shows 3 beliefs overlay to form a final world view, which can be 'explored' to find out what the implications are in each explore.
 
 A live demo of deCheemBL, the deCheem Inference Engine and a suitable user-interface can be found `here <https://enterprise.decheem.io/?session=eyJkaXNwbGF5VGhlbkVkaXRvciI6dHJ1ZSwic2VsZWN0ZWRCZWxpZWZCYXNlVXVpZCI6ImFiYjk4NDdmLTY1NDAtNGFjOS04MDA1LWRiOThjZWFjOGVhZiIsImRlQ2hlZW1DYXNlRGlzcGxheU1vZGUiOiIxIiwic2Vzc2lvblRpdGxlIjoiTmV3IGRlQ2hlZW0gc2Vzc2lvbiIsInBpbkZpbGVOYW1lIjpmYWxzZSwicGlubmVkRmlsZU5hbWUiOiIiLCJwdWJsaWNCZWxpZWZCYXNlc1V1aWRBcnJheSI6WyI5ZmRmZDAwZS1hODYyLTQ5MzItODMyZS0wY2IxOGI3M2FiOGEiXSwic2Vzc2lvbkRlc2NyaXB0aW9uIjoiRGVzY3JpcHRpb24gb2YgdGhlIHNlc3Npb24iLCJhcnJheU9mU2l0dWF0aW9ucyI6W3siZXhwbG9yZVRpdGxlIjoiV2hlbiBkb2VzIEhvYmJlcyBjb25zaWRlciBpdCBwb3NzaWJsZSBmb3IgdGhlIHdvcmxkIHRvIG5vdCBiZSBpbiBhIHN0YXRlIG9mIHdhcj8iLCJleHBsb3JlU3VidGl0bGUiOiIiLCJzaXR1YXRpb25PYmplY3QiOnsiVGhlIHBoaWxvc29waHkgb2YgVGhvbWFzIEhvYmJlcyBpcyBiZWluZyBjb25zaWRlcmVkLiI6dHJ1ZSwiVGhlIHdvcmxkIGlzIGluIGEgc3RhdGUgb2Ygd2FyLiI6ZmFsc2V9fSx7ImV4cGxvcmVUaXRsZSI6IldoYXQgZG8gSG9iYmVzIGFuZCBMb2NrZSBzYXkgYWJvdXQgYSB3b3JsZCB0aGF0IGlzIGluIGEgc3RhdGUgb2Ygd2FyLCBidXQgcmVzb3VyY2VzIGFyZSBsaW1pdGxlc3M%2FIiwiZXhwbG9yZVN1YnRpdGxlIjoiIiwic2l0dWF0aW9uT2JqZWN0Ijp7IlRoZSBwaGlsb3NvcGh5IG9mIFRob21hcyBIb2JiZXMgaXMgYmVpbmcgY29uc2lkZXJlZC4iOnRydWUsIlRoZSB3b3JsZCBpcyBpbiBhIHN0YXRlIG9mIHdhci4iOnRydWUsIlRoZSByZXNvdXJjZXMgaW4gdGhlIHdvcmxkIGlzIGxpbWl0bGVzcy4gICAgICAgICI6dHJ1ZSwiVGhlIHBoaWxvc29waHkgb2YgSm9obiBMb2NrZSBpcyBiZWluZyBjb25zaWRlcmVkLiI6dHJ1ZX19XX0%3D>`_.
+
+deCheemQL samples
+----------------------------------------
+
+Here are examples of how deCheem beliefs are stored and queried/explored in order to get the inference results we need.
+
+**Belief Base sampe**
+
+The following is an example of how a belief base with 6 beliefs is stored in a data base. You are free to store it in any database type you want as long as the structure below is respected when the belief base is stored and retrieved.
+
+``` json
+{
+  "then": [
+    {
+      "case": {
+        "type": "LET",
+        "modalPhrases": [
+          {
+            "modal": "Always",
+            "properties": {
+              "The world is in a state of war.": true
+            }
+          }
+        ],
+        "filterPhrases": [
+          {
+            "The world is in the state of nature.": true,
+            "The individual in question is rational.": true,
+            "The resources in the world is limitless.        ": false,
+            "The philosophy of Thomas Hobbes is being considered.": true
+          }
+        ]
+      },
+      "beliefUniqueId": "426aa178-be38-432f-b9a5-9ab35e09d4ef"
+    },
+    {
+      "case": {
+        "type": "LET",
+        "modalPhrases": [
+          {
+            "modal": "Always",
+            "properties": {
+              "The collective in question is rational.": true
+            }
+          },
+          {
+            "modal": "Always",
+            "properties": {
+              "Force is deployed to bring about peace.": true
+            }
+          }
+        ],
+        "filterPhrases": [
+          {
+            "The world is in a state of war.": false,
+            "The philosophy of Thomas Hobbes is being considered.": true
+          }
+        ]
+      },
+      "beliefUniqueId": "134c21d4-7005-4bdc-9ddc-e39991223328"
+    },
+    {
+      "case": {
+        "type": "LET",
+        "modalPhrases": [
+          {
+            "modal": "Always",
+            "properties": {
+              "The individual's liberties are constrained by their innate morality.": true
+            }
+          }
+        ],
+        "filterPhrases": [
+          {
+            "The individual has liberties.": true,
+            "The world is in the state of nature.": true,
+            "The philosophy of John Locke is being considered.": true
+          }
+        ]
+      },
+      "beliefUniqueId": "c1667128-8f29-4c29-82dc-55af15127a3b"
+    },
+    {
+      "case": {
+        "type": "LET",
+        "modalPhrases": [
+          {
+            "modal": "Always",
+            "properties": {
+              "The world is in a state of war.": false
+            }
+          }
+        ],
+        "filterPhrases": [
+          {
+            "The resources in the world is limitless.        ": true,
+            "The philosophy of John Locke is being considered.": true
+          }
+        ]
+      },
+      "beliefUniqueId": "c6ac2033-905d-4e8b-bcb8-24b6c4c19b0c"
+    },
+    {
+      "case": {
+        "type": "LET",
+        "modalPhrases": [
+          {
+            "modal": "Always",
+            "properties": {
+              "The collective is in agreement on the methods of punishment and enforcement.": false
+            }
+          }
+        ],
+        "filterPhrases": [
+          {
+            "The world is in a state of war.": true,
+            "The world is in the state of nature.": true,
+            "The philosophy of John Locke is being considered.": true
+          }
+        ]
+      },
+      "beliefUniqueId": "791ea8f0-4779-4d64-b8b7-478bdf2b979e"
+    },
+    {
+      "case": {
+        "type": "LET",
+        "modalPhrases": [
+          {
+            "modal": "Always",
+            "properties": {
+              "The collective in question is rational.": true
+            }
+          }
+        ],
+        "filterPhrases": [
+          {
+            "The collective is in agreement on the methods of punishment and enforcement.": true
+          }
+        ]
+      },
+      "beliefUniqueId": "120dc259-2033-47b9-a5f3-cb316e4b883f"
+    }
+  ],
+  "beliefBaseName": "Political philosophy demo",
+  "beliefbaseowner": "guangmian@gmail.com"
+}
+```
