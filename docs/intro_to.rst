@@ -11,18 +11,20 @@ To perform any deCheemic analysis, you will need to make use of three things:
 
 The deCheem Inference Engine is based on set-theory. It imagines the world as the universal set of situations, and beliefs as rules that asserts claims about the existence or non-existence of subsets of these situations. 
 
-The deCheem Belief Language is based on naturally language, and it is purposely under-defined in syntax so as to shift meaning-representation from computer languages to natural language. This is why deCheemBL reads like human language, and is also interpreted computationally exactly like how it reads in human language.
+The deCheem Belief Language is designed to be as close to natural language as possible. It is purposely lacking any forms of data type definitions in order to not obfuscate the descriptive power of natural language with pre-defined categorisations. This is why deCheemBL statements reads like human language, and is also interpreted computationally exactly like how it reads in human language.
 
 User interfaces uses deCheemBL to interact with instances of the deCheem IE in the backend, allowing one to explore belief systems intuitively without having to deal with any complicated syntax or code.
 
 
 Sets vs Always, Never and Possibly.
 -----------
-deCheem operates on the belief that all beliefs can be constructed out of the subject(s) and statement(s) about the subject(s). Statements are about whether a situation applies, not applies or something in between (Possibly, mostly, probably, often...). 
-If everything is indefinite, no conclusions can be drawn. Therefore deCheem places a strong emphasis on 'Always' and 'Never' as modals, and implores the user to figure out why they are hesitant to make hard statements about the 'Always'ness or 'Never'ness of a situation.
+deCheem operates on the belief that all beliefs can be constructed out of the subject(s) and statement(s) about the subject(s). Statements are about whether a situation applies, not applies or perhaps applies (Possibly, mostly, probably, often...) to a situation. 
+deCheem encourages users to use 'Always' and 'Never' as modals in their statements, and pushes users to figure out why they are hesitant to make hard statements about the 'Always'ness or 'Never'ness of a situation.
 
 By interpreting what 'Always' or 'Never' says about the existence of subsets of situations in the world, deCheem is able to help you derive the implications of any argument in this belief system. 
 
 This file [here](https://docs.google.com/spreadsheets/d/16sUikzHOWCzJLGlTpIpeP4ojyGBsPNrKz8bOs8zeLQM/edit?usp=sharing) illustrates how deCheem statements are used to filter out sets of situations out of the set of all possible situations.
 Sheet A shows how 6 different beliefs translate to statements about the (non-)existence of certain subsets of situations.
 Sheet B shows 3 beliefs overlay to form a final world view, which can be 'explored' to find out what the implications are in each explore.
+
+A live demo of deCheemBL, the deCheem Inference Engine and a suitable user-interface can be found `here <https://enterprise.decheem.io/?session=eyJkaXNwbGF5VGhlbkVkaXRvciI6dHJ1ZSwic2VsZWN0ZWRCZWxpZWZCYXNlVXVpZCI6ImFiYjk4NDdmLTY1NDAtNGFjOS04MDA1LWRiOThjZWFjOGVhZiIsImRlQ2hlZW1DYXNlRGlzcGxheU1vZGUiOiIxIiwic2Vzc2lvblRpdGxlIjoiTmV3IGRlQ2hlZW0gc2Vzc2lvbiIsInBpbkZpbGVOYW1lIjpmYWxzZSwicGlubmVkRmlsZU5hbWUiOiIiLCJwdWJsaWNCZWxpZWZCYXNlc1V1aWRBcnJheSI6WyI5ZmRmZDAwZS1hODYyLTQ5MzItODMyZS0wY2IxOGI3M2FiOGEiXSwic2Vzc2lvbkRlc2NyaXB0aW9uIjoiRGVzY3JpcHRpb24gb2YgdGhlIHNlc3Npb24iLCJhcnJheU9mU2l0dWF0aW9ucyI6W3siZXhwbG9yZVRpdGxlIjoiV2hlbiBkb2VzIEhvYmJlcyBjb25zaWRlciBpdCBwb3NzaWJsZSBmb3IgdGhlIHdvcmxkIHRvIG5vdCBiZSBpbiBhIHN0YXRlIG9mIHdhcj8iLCJleHBsb3JlU3VidGl0bGUiOiIiLCJzaXR1YXRpb25PYmplY3QiOnsiVGhlIHBoaWxvc29waHkgb2YgVGhvbWFzIEhvYmJlcyBpcyBiZWluZyBjb25zaWRlcmVkLiI6dHJ1ZSwiVGhlIHdvcmxkIGlzIGluIGEgc3RhdGUgb2Ygd2FyLiI6ZmFsc2V9fSx7ImV4cGxvcmVUaXRsZSI6IldoYXQgZG8gSG9iYmVzIGFuZCBMb2NrZSBzYXkgYWJvdXQgYSB3b3JsZCB0aGF0IGlzIGluIGEgc3RhdGUgb2Ygd2FyLCBidXQgcmVzb3VyY2VzIGFyZSBsaW1pdGxlc3M%2FIiwiZXhwbG9yZVN1YnRpdGxlIjoiIiwic2l0dWF0aW9uT2JqZWN0Ijp7IlRoZSBwaGlsb3NvcGh5IG9mIFRob21hcyBIb2JiZXMgaXMgYmVpbmcgY29uc2lkZXJlZC4iOnRydWUsIlRoZSB3b3JsZCBpcyBpbiBhIHN0YXRlIG9mIHdhci4iOnRydWUsIlRoZSByZXNvdXJjZXMgaW4gdGhlIHdvcmxkIGlzIGxpbWl0bGVzcy4gICAgICAgICI6dHJ1ZSwiVGhlIHBoaWxvc29waHkgb2YgSm9obiBMb2NrZSBpcyBiZWluZyBjb25zaWRlcmVkLiI6dHJ1ZX19XX0%3D>`_.
