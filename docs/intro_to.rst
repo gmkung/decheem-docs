@@ -7,7 +7,7 @@ To perform any deCheemic analysis, you will need to make use of three things:
 
 * the deCheem Inference Engine
 * the deCheem Belief Language
-* a user interface.
+* a `user interface <https://enterprise.decheem.io/?session=eyJkaXNwbGF5VGhlbkVkaXRvciI6dHJ1ZSwic2VsZWN0ZWRCZWxpZWZCYXNlVXVpZCI6ImFiYjk4NDdmLTY1NDAtNGFjOS04MDA1LWRiOThjZWFjOGVhZiIsImRlQ2hlZW1DYXNlRGlzcGxheU1vZGUiOiIxIiwic2Vzc2lvblRpdGxlIjoiTmV3IGRlQ2hlZW0gc2Vzc2lvbiIsInBpbkZpbGVOYW1lIjpmYWxzZSwicGlubmVkRmlsZU5hbWUiOiIiLCJwdWJsaWNCZWxpZWZCYXNlc1V1aWRBcnJheSI6WyI5ZmRmZDAwZS1hODYyLTQ5MzItODMyZS0wY2IxOGI3M2FiOGEiXSwic2Vzc2lvbkRlc2NyaXB0aW9uIjoiRGVzY3JpcHRpb24gb2YgdGhlIHNlc3Npb24iLCJhcnJheU9mU2l0dWF0aW9ucyI6W3siZXhwbG9yZVRpdGxlIjoiV2hlbiBkb2VzIEhvYmJlcyBjb25zaWRlciBpdCBwb3NzaWJsZSBmb3IgdGhlIHdvcmxkIHRvIG5vdCBiZSBpbiBhIHN0YXRlIG9mIHdhcj8iLCJleHBsb3JlU3VidGl0bGUiOiIiLCJzaXR1YXRpb25PYmplY3QiOnsiVGhlIHBoaWxvc29waHkgb2YgVGhvbWFzIEhvYmJlcyBpcyBiZWluZyBjb25zaWRlcmVkLiI6dHJ1ZSwiVGhlIHdvcmxkIGlzIGluIGEgc3RhdGUgb2Ygd2FyLiI6ZmFsc2V9fSx7ImV4cGxvcmVUaXRsZSI6IldoYXQgZG8gSG9iYmVzIGFuZCBMb2NrZSBzYXkgYWJvdXQgYSB3b3JsZCB0aGF0IGlzIGluIGEgc3RhdGUgb2Ygd2FyLCBidXQgcmVzb3VyY2VzIGFyZSBsaW1pdGxlc3M%2FIiwiZXhwbG9yZVN1YnRpdGxlIjoiIiwic2l0dWF0aW9uT2JqZWN0Ijp7IlRoZSBwaGlsb3NvcGh5IG9mIFRob21hcyBIb2JiZXMgaXMgYmVpbmcgY29uc2lkZXJlZC4iOnRydWUsIlRoZSB3b3JsZCBpcyBpbiBhIHN0YXRlIG9mIHdhci4iOnRydWUsIlRoZSByZXNvdXJjZXMgaW4gdGhlIHdvcmxkIGlzIGxpbWl0bGVzcy4gICAgICAgICI6dHJ1ZSwiVGhlIHBoaWxvc29waHkgb2YgSm9obiBMb2NrZSBpcyBiZWluZyBjb25zaWRlcmVkLiI6dHJ1ZX19XX0%3D>`_.
 
 The deCheem Inference Engine is makes use of set-theory for reasoning. It imagines the world as the universal set of situations, and beliefs as rules that asserts claims about the existence or non-existence of subsets of these situations. 
 
@@ -23,7 +23,7 @@ deCheem encourages users to use 'Always' and 'Never' as modals in their statemen
 
 By interpreting what 'Always' or 'Never' says about the existence of subsets of situations in the world, deCheem is able to help you derive the implications of any argument in this belief system. 
 
-This file [here](https://docs.google.com/spreadsheets/d/16sUikzHOWCzJLGlTpIpeP4ojyGBsPNrKz8bOs8zeLQM/edit?usp=sharing) illustrates how deCheem statements are used to filter out sets of situations out of the set of all possible situations.
+This file `here <https://docs.google.com/spreadsheets/d/16sUikzHOWCzJLGlTpIpeP4ojyGBsPNrKz8bOs8zeLQM/edit?usp=sharing>`_ illustrates how deCheem statements are used to filter out sets of situations out of the set of all possible situations.
 Sheet A shows how 6 different beliefs translate to statements about the (non-)existence of certain subsets of situations.
 Sheet B shows 3 beliefs overlay to form a final world view, which can be 'explored' to find out what the implications are in each explore.
 
