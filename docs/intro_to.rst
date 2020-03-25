@@ -38,140 +38,140 @@ Here are examples of how deCheem beliefs are stored and queried/explored in orde
 
 The following is an example of how a belief base with 6 beliefs is stored in a data base. You are free to store it in any database type you want as long as the structure below is respected when the belief base is stored and retrieved.
 
-``` json
-{
-  "then": [
-    {
-      "case": {
-        "type": "LET",
-        "modalPhrases": [
-          {
-            "modal": "Always",
-            "properties": {
-              "The world is in a state of war.": true
+``` code-block:: json
+  {
+    "then": [
+      {
+        "case": {
+          "type": "LET",
+          "modalPhrases": [
+            {
+              "modal": "Always",
+              "properties": {
+                "The world is in a state of war.": true
+              }
             }
-          }
-        ],
-        "filterPhrases": [
-          {
-            "The world is in the state of nature.": true,
-            "The individual in question is rational.": true,
-            "The resources in the world is limitless.        ": false,
-            "The philosophy of Thomas Hobbes is being considered.": true
-          }
-        ]
+          ],
+          "filterPhrases": [
+            {
+              "The world is in the state of nature.": true,
+              "The individual in question is rational.": true,
+              "The resources in the world is limitless.        ": false,
+              "The philosophy of Thomas Hobbes is being considered.": true
+            }
+          ]
+        },
+        "beliefUniqueId": "426aa178-be38-432f-b9a5-9ab35e09d4ef"
       },
-      "beliefUniqueId": "426aa178-be38-432f-b9a5-9ab35e09d4ef"
-    },
-    {
-      "case": {
-        "type": "LET",
-        "modalPhrases": [
-          {
-            "modal": "Always",
-            "properties": {
-              "The collective in question is rational.": true
+      {
+        "case": {
+          "type": "LET",
+          "modalPhrases": [
+            {
+              "modal": "Always",
+              "properties": {
+                "The collective in question is rational.": true
+              }
+            },
+            {
+              "modal": "Always",
+              "properties": {
+                "Force is deployed to bring about peace.": true
+              }
             }
-          },
-          {
-            "modal": "Always",
-            "properties": {
-              "Force is deployed to bring about peace.": true
+          ],
+          "filterPhrases": [
+            {
+              "The world is in a state of war.": false,
+              "The philosophy of Thomas Hobbes is being considered.": true
             }
-          }
-        ],
-        "filterPhrases": [
-          {
-            "The world is in a state of war.": false,
-            "The philosophy of Thomas Hobbes is being considered.": true
-          }
-        ]
+          ]
+        },
+        "beliefUniqueId": "134c21d4-7005-4bdc-9ddc-e39991223328"
       },
-      "beliefUniqueId": "134c21d4-7005-4bdc-9ddc-e39991223328"
-    },
-    {
-      "case": {
-        "type": "LET",
-        "modalPhrases": [
-          {
-            "modal": "Always",
-            "properties": {
-              "The individual's liberties are constrained by their innate morality.": true
+      {
+        "case": {
+          "type": "LET",
+          "modalPhrases": [
+            {
+              "modal": "Always",
+              "properties": {
+                "The individual's liberties are constrained by their innate morality.": true
+              }
             }
-          }
-        ],
-        "filterPhrases": [
-          {
-            "The individual has liberties.": true,
-            "The world is in the state of nature.": true,
-            "The philosophy of John Locke is being considered.": true
-          }
-        ]
-      },
-      "beliefUniqueId": "c1667128-8f29-4c29-82dc-55af15127a3b"
-    },
-    {
-      "case": {
-        "type": "LET",
-        "modalPhrases": [
-          {
-            "modal": "Always",
-            "properties": {
-              "The world is in a state of war.": false
+          ],
+          "filterPhrases": [
+            {
+              "The individual has liberties.": true,
+              "The world is in the state of nature.": true,
+              "The philosophy of John Locke is being considered.": true
             }
-          }
-        ],
-        "filterPhrases": [
-          {
-            "The resources in the world is limitless.        ": true,
-            "The philosophy of John Locke is being considered.": true
-          }
-        ]
+          ]
+        },
+        "beliefUniqueId": "c1667128-8f29-4c29-82dc-55af15127a3b"
       },
-      "beliefUniqueId": "c6ac2033-905d-4e8b-bcb8-24b6c4c19b0c"
-    },
-    {
-      "case": {
-        "type": "LET",
-        "modalPhrases": [
-          {
-            "modal": "Always",
-            "properties": {
-              "The collective is in agreement on the methods of punishment and enforcement.": false
+      {
+        "case": {
+          "type": "LET",
+          "modalPhrases": [
+            {
+              "modal": "Always",
+              "properties": {
+                "The world is in a state of war.": false
+              }
             }
-          }
-        ],
-        "filterPhrases": [
-          {
-            "The world is in a state of war.": true,
-            "The world is in the state of nature.": true,
-            "The philosophy of John Locke is being considered.": true
-          }
-        ]
-      },
-      "beliefUniqueId": "791ea8f0-4779-4d64-b8b7-478bdf2b979e"
-    },
-    {
-      "case": {
-        "type": "LET",
-        "modalPhrases": [
-          {
-            "modal": "Always",
-            "properties": {
-              "The collective in question is rational.": true
+          ],
+          "filterPhrases": [
+            {
+              "The resources in the world is limitless.        ": true,
+              "The philosophy of John Locke is being considered.": true
             }
-          }
-        ],
-        "filterPhrases": [
-          {
-            "The collective is in agreement on the methods of punishment and enforcement.": true
-          }
-        ]
+          ]
+        },
+        "beliefUniqueId": "c6ac2033-905d-4e8b-bcb8-24b6c4c19b0c"
       },
-      "beliefUniqueId": "120dc259-2033-47b9-a5f3-cb316e4b883f"
-    }
-  ],
-  "beliefBaseName": "Political philosophy demo",
-  "beliefbaseowner": "guangmian@gmail.com"
-}
-```
+      {
+        "case": {
+          "type": "LET",
+          "modalPhrases": [
+            {
+              "modal": "Always",
+              "properties": {
+                "The collective is in agreement on the methods of punishment and enforcement.": false
+              }
+            }
+          ],
+          "filterPhrases": [
+            {
+              "The world is in a state of war.": true,
+              "The world is in the state of nature.": true,
+              "The philosophy of John Locke is being considered.": true
+            }
+          ]
+        },
+        "beliefUniqueId": "791ea8f0-4779-4d64-b8b7-478bdf2b979e"
+      },
+      {
+        "case": {
+          "type": "LET",
+          "modalPhrases": [
+            {
+              "modal": "Always",
+              "properties": {
+                "The collective in question is rational.": true
+              }
+            }
+          ],
+          "filterPhrases": [
+            {
+              "The collective is in agreement on the methods of punishment and enforcement.": true
+            }
+          ]
+        },
+        "beliefUniqueId": "120dc259-2033-47b9-a5f3-cb316e4b883f"
+      }
+    ],
+    "beliefBaseName": "Political philosophy demo",
+    "beliefbaseowner": "guangmian@gmail.com"
+  }
+
