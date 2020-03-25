@@ -59,7 +59,7 @@ You are free to store it in any database type you want as long as the object str
             {
               "The world is in the state of nature.": true,
               "The individual in question is rational.": true,
-              "The resources in the world is limitless.        ": false,
+              "The resources in the world is limitless.": false,
               "The philosophy of Thomas Hobbes is being considered.": true
             }
           ]
@@ -126,7 +126,7 @@ You are free to store it in any database type you want as long as the object str
           ],
           "filterPhrases": [
             {
-              "The resources in the world is limitless.        ": true,
+              "The resources in the world is limitless.": true,
               "The philosophy of John Locke is being considered.": true
             }
           ]
@@ -191,7 +191,7 @@ The actual code of the deCheem Inference Engine will be made public at a later s
     "The philosophy of Thomas Hobbes is being considered.": true,
     "The philosophy of John Locke is being considered.": true,
     "The world is in the state of nature.": true,
-    "The resources in the world is limitless.        ": true,
+    "The resources in the world is limitless.": true,
     "The individual's liberties are constrained by their innate morality.": false
   }
 
@@ -234,3 +234,6 @@ After the Inference Engine has received the Explore object and the Belief Base t
       ]
     }
   }
+
+
+This result object can then be used to power all kinds of visualisations and logic on the frontend of your application.
