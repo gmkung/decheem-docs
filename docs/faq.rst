@@ -4,7 +4,7 @@ Frequently Asked Questions
 What are the most important characteristics to look for in the ideal expert system for managing legal or philosophical knowledge?
 --------------------------------------------
 
-Here are a list of considerations that were taken into account during the design process of deCheem.
+Here are a list of principles that were taken into account during the design process of deCheem.
 
 * **Type-less knowledge entry**
 
@@ -47,15 +47,15 @@ How does deCheem represent beliefs about different subjects without using condit
 IF-ELSE statements are needed when relating between two different subjects in terms of graphs/relations. In a set-based expert system like deCheem, this can be bypassed by phrasing everything as a property of a common subject.
 'Situations' is the best choice of subject here, as it keeps everything in the same set-space by allowing anything under the sun to be phrased in terms of situations. This allows us to achieve conditionality without resorting to IF-ELSE clauses, and thus also achieves sequence-insensitivity at the same time.
 
-Why are relational databases not suitable for this?
+Do relational databases fulfil the deCheem design principles?
 --------------------------------------------
 Relation databases do not perform inference out of the box. If one were to (mis)use them for performing deduction, analyse 20 different possible situation types would need a table with 2^20 rows. This is unscalable and is not what relational databases should be used for. 
 
-Why are graph databases not suitable for this?
+Do graph databases fulfil the deCheem design principles?
 --------------------------------------------
 Graph databases sees things as nodes with fixed relationships. deCheem forms relationships between different nodes based on certain conditions, and the inference engine layer is not native to graph databases.
 
-Why are decision-trees not suitable for this?
+Do decision-trees fulfil the deCheem design principles?
 --------------------------------------------
 Decision trees are by nature hierachical and operates on branches. If an idea in a deep branch has links to another idea in an earlier branch, there is no efficient way to represent that relationship. Also, if the definition of a decision point at an earlier branch is changed, the validity of the decisions branches lower down will all be affected, which limits the maintainability of this solution.
 
@@ -64,13 +64,13 @@ Frameworks that share the same method and therefore the same pitfalls when used 
 * `Decision Model and Notation <https://en.wikipedia.org/wiki/Decision_Model_and_Notation#DMN_BPMN_example>`_ (DMN)
 * `Argument-maps <https://en.wikipedia.org/wiki/Argument_map>`_ 
 
-Why is Prolog not useable for this?
+Does Prolog fulfil the deCheem design principles?
 --------------------------------------------
 `Prolog <https://en.wikipedia.org/wiki/Prolog>`_ is great for quantitative inferences and relationship deduction when properties share only inherit properties from a single parent. 
 However, numerical methods are useless against analysis of beliefs, and the need for beliefs to take on different meanings (aka inherit properties) from any number of situations makes Prolog a bad choice to use for belief analysis.
 Prolog makes a distinction between 'rules' and 'facts', and that distinction takes away from the 'type-less' nature of a good general expert system.
 
-Why is the Carneades system not useable for this?
+Does the Carneades system fulfil the deCheem design principles?
 --------------------------------------------
 When it comes to how knowledge is represented, the `Carneades argumentation system <https://carneades.github.io/about-carneades/>`_ is one of the closest to the deCheem belief language. Subjects and predicates are represented together in 'statements' (belief properties in deCheem's terms), which is one step closer to true 'typelessness'. Carneades also represents only relations between statements in a single direction, while deCheem does that but also allows statements to have true modality (e.g. represent assertions that are true in all cases/directions).
 
@@ -85,7 +85,7 @@ Other formats or frameworks that share the same pitfalls are :
 * `LegalRuleML <http://docs.oasis-open.org/legalruleml/legalruleml-core-spec/v1.0/legalruleml-core-spec-v1.0.html>`_
 * `Protége <https://protege.stanford.edu/>`_. 
 
-Why is `AceRules <https://github.com/tkuhn/AceRules>`_ not suitable for this?
+Does `AceRules <https://github.com/tkuhn/AceRules>`_ fulfil the deCheem design principles?
 ----------------------------------------------
 AceRules attempts to make rule entry very similar to typing regular English, which is admirable. However, it's strength but also its pitfall lies in its use of `Attempto Controlled English <https://en.wikipedia.org/wiki/Attempto_Controlled_English>`_ as its foundation. 
 As Attempto Controlled English restricts the set of standard English that can be used, it already introduces a limit to the kinds of ideas or relationships that we can express with it. Furthermore, AceRules requires relation types to come from a predefined list, which also takes away from the goal of typelessness.
