@@ -70,6 +70,7 @@ For teachers: Creating 'Rule Assembly' assignments
     #. In the Rule System selector on the top left, click and duplicate the rule system, and choose to make a 'disassembled' copy of the rule system.
     #. Share this disassembled copy with the User Group where your students are in. Grant only read-only rights so that students have to make a personal copy of it before working on it.
     #. Create a new User Group as a submission folder (see instructions in previous section), and copy the Submission Code at the bottom of the permission overview of the User Group.
+        
         * Grant other teachers and teaching assistants access to this group so they can help you with reviewing the assignments later. Do not add your students to this group.
 #. When communicating the assignment to your students, point them to the disassembled copy you shared with them, as well as the Submission Code for them to use once they are done.
 
@@ -89,6 +90,7 @@ For teachers: Marking 'Rule Assembly' assignments
 #. In the second dropdown, select the User Group that is linked to the Submission Code you gave to your students. Once done, all the submitted rule systems will be listed in the table below.
 #. Click on 'Go!' to grade all these Rule Systems according to the marking scheme.
 #. Each deCheem Rule is broken down and translated into a certain number of assertions in the background. deCheem then uses these assertions to score the students' Rule Systems on two measures:
+
     * **Completeness** - percentage of the marking scheme's assertions that are covered by the student's total set of assertions.
     * **Correctness** - percentage of student's total set of assertions that are also made by the marking scheme.
 #. These two measures are then averaged out to give a mean score, reflecting the overall score of the submitted Rule System.
