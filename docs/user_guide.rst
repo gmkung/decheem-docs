@@ -39,15 +39,10 @@ User rights and permissions
 #. There are three main kinds of permission entities in deCheem:
 
     #. **Users**
-
         * Like the one you use to log into deCheem, which is represented by your email address.
-
     #. **Rule Systems**
-
         * These are the rule systems that you create through the interface. They can be accessed by Users and/or User Groups.
-
     #. **User groups** 
-
         * These are entities that either users or other user groups groups can belong to. User groups also serve as folders in deCheem for grouping Rule Systems together.
 
 
