@@ -4,7 +4,7 @@ User Guide
 Getting started
 ------------------------------------
 deCheem is a tool for sketching and testing rule/belief systems, and the layout is meant to help you with this process.
-deCheem was designed to allow everyone to start sketching and testing ideas and rules within a few minutes.deCheem is a tool for sketching and testing rule/belief systems, and the layout is meant to help you with this process.
+deCheem was designed to allow everyone to start sketching and testing ideas and rules within a few minutes. deCheem is a tool for sketching and testing rule/belief systems, and the layout is meant to help you with this process.
 If you need some help to get started, here are some instructions for you!
 
 Creating a deCheem account
