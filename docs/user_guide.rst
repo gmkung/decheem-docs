@@ -63,13 +63,13 @@ For teachers: Creating 'Rule Assembly' assignments
 #. A Rule Assembly assignment is basically a **mix-and-match** exercise where the teacher determines the set of possible sentences to use, and the students have to use them to recreate the rules the teacher had in mind.
 #. Imagine you are a teacher of law and you:
     * want your students to read 5 different past cases and distill the rules that led to the judgments in these cases.
-    * have created the Rule System yourself and you want your students to try to recreate it, but want to set boundaries to the phrasings that the students can use for ease of marking.
+    * have created the Rule System yourself and you want your students to try to recreate it, but want to set boundaries of the phrasings that the students can use for ease of marking.
     * want to programmatically mark the work of your students without having to read through every single essay painstakingly. 
 #. To prepare such an assignment, you just need to do the following:
-    #. Create the Rule System that contain all the rules that you want your student to pick out from the past cases. Save this well, as it will serve as your **marking scheme**.
+    #. Create the Rule System that contain all the rules that you want your student to pick out from the past cases. Save this properly, as it will serve as your **marking scheme**.
     #. In the Rule System selector on the top left, click and duplicate the rule system, and choose to make a 'disassembled' copy of the rule system.
     #. Share this disassembled copy with the User Group where your students are in. Grant only read-only rights so that students have to make a personal copy of it before working on it.
-    #. Create a new User Group as a submission folder (see instructions in previous section), and copy the Submission Code at the bottom of the permission overview of the User Group.
+    #. Create a new User Group as a submission folder (see instructions in previous section), and copy down the Submission Code at the bottom of the permission overview of the User Group.
         
         * Grant other teachers and teaching assistants access to this group so they can help you with reviewing the assignments later. Do not add your students to this group.
 #. When communicating the assignment to your students, point them to the disassembled copy you shared with them, as well as the Submission Code for them to use once they are done.
@@ -79,7 +79,7 @@ For students: Submitting Rule Systems
 #. All assignments in deCheem involve the creation of a Rule System, regardless of whether you were giving a disassembled rule system to start with or simply a blank slate to work from.
 #. Once you have created and saved the rule system, go to the Permission Overview of the Rule System, and click on 'Submit this rule system'.
 #. In the pop-up, enter the Submission Code given to you by your teacher, and adjust the submission name of the Rule System to fit the format given to you by your teacher. 
-#* Once done, click Submit. That's it, you have just submitted a timestamped and unlinked copy of your rule system to your teacher.
+#. Once done, click Submit. That's it, you have just submitted a timestamped and unlinked copy of your rule system to your teacher.
 
 
 For teachers: Marking 'Rule Assembly' assignments 
@@ -91,6 +91,6 @@ For teachers: Marking 'Rule Assembly' assignments
 #. Click on 'Go!' to grade all these Rule Systems according to the marking scheme.
 #. Each deCheem Rule is broken down and translated into a certain number of assertions in the background. deCheem then uses these assertions to score the students' Rule Systems on two measures:
 
-    * **Completeness** - percentage of the marking scheme's assertions that are covered by the student's total set of assertions.
-    * **Correctness** - percentage of student's total set of assertions that are also made by the marking scheme.
-#. These two measures are then averaged out to give a mean score, reflecting the overall score of the submitted Rule System.
+    * **Completeness** - percentage of the marking scheme's assertions that are also made by the student's rule system.
+    * **Correctness** - percentage of the total set of assertions implied by the student's rule system that are also made by the marking scheme.
+#. These two measures are then averaged out to give a score reflecting the overall grade of the submitted Rule System.
