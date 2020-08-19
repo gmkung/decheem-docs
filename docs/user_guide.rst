@@ -7,13 +7,13 @@ deCheem was designed to allow everyone to start sketching and testing ideas and 
 If you need some help to get started, here are some instructions for you!
 
 Creating a deCheem account
-^^^
+^^^^^^^^^^^^
 #. To create an account, go to app.decheem.io and click on 'Sign Up'
 #. Sign up either with your Google Account or create a fresh user name and password for deCheem.
 #. Once done, you will be redirected to the working view, where you can start creating and testing your first rule systems.
 
 Navigating deCheem
-^^^
+^^^^^^^^^^^^
 #. If it is your first time logging into deCheem, the first thing to do is to click on the big grey box on the left to create a new rule system.
 #. deCheem is a tool for sketching and testing rule/belief systems, and the layout is meant to help you with this process.
 
@@ -34,7 +34,7 @@ Navigating deCheem
 
 
 User rights and permissions
-^^^
+^^^^^^^^^^^^
 #. deCheem utilises a graph-based user permission system, which basically means that instead of managing access rights through a static folder structure, it allows for any combination of user groups to fit your organisational needs.
 #. There are three main kinds of permission entities in deCheem:
 
