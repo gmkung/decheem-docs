@@ -23,6 +23,7 @@ Please click on the Intro section below to learn more about the theory behind de
    :caption: User Documentation
    
    intro_to
+   user_guide
    belief_style_guide
    faq
 
