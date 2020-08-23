@@ -18,7 +18,7 @@ Navigating deCheem
 #. If it is your first time logging into deCheem, the first thing to do is to click on the big grey box on the left to create a new rule system.
 #. deCheem is a tool for sketching and testing rule/belief systems, and the layout is meant to help you with this process.
 
-    #. The basic building block in deCheem is simply a **`basic English sentence <https://simple.wikipedia.org/wiki/Sentence#Basic_English_sentences>`_**, which - as a proposition - can be either **true** or **false** (basically a `proposition <https://www.lexico.com/definition/proposition>`_).
+    #. The basic building block in deCheem is simply a `basic English sentence <https://simple.wikipedia.org/wiki/Sentence#Basic_English_sentences>`_, which - as a proposition - can be either **true** or **false** (basically a `proposition <https://www.lexico.com/definition/proposition>`_).
     #. Sentences can then be used to build If-Then **Rules**.
     #. A collection of rules forms a **Rule System**, which can then be explored, analysed and tested.
 
