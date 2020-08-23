@@ -55,7 +55,9 @@ User rights and permissions
 Features for education
 ------------------------------
 deCheem has several features that are meant to allow philosophy/law educators and students to work together more effectively. 
+
 deCheem Rule Systems (in combination with deCheem causation analysis test cases) could easily be used to replace essays arguing a certain standpoint, or to show where various systems of belief concur and disagree.
+
 If you - as an educator - prefer to offer more guided assignments, deCheem also allows you to create 'rule assembly' assignments that help beginning students quickly understand the process of distilling ideas and rules from existing literature.
 
 For teachers: Creating 'Rule Assembly' assignments 
