@@ -9,7 +9,7 @@ If you need some help to get started, here are some instructions for you!
 
 Creating a deCheem account
 ^^^^^^^^^^^^
-#. To create an account, go to app.decheem.io and click on 'Sign Up'
+#. To create an account, go to `app.decheem.io <https://app.decheem.io>`_ and click on 'Sign Up'
 #. Sign up either with your Google Account or create a fresh user name and password for deCheem.
 #. Once done, you will be redirected to the working view, where you can start creating and testing your first rule systems.
 
@@ -18,32 +18,32 @@ Navigating deCheem
 #. If it is your first time logging into deCheem, the first thing to do is to click on the big grey box on the left to create a new rule system.
 #. deCheem is a tool for sketching and testing rule/belief systems, and the layout is meant to help you with this process.
 
-    #. The basic building block in deCheem is simply a `basic English sentence <https://simple.wikipedia.org/wiki/Sentence#Basic_English_sentences>`_, which - as a proposition - can be either **true** or **false** (basically a `proposition <https://www.lexico.com/definition/proposition>`_).
+    #. The basic building block in deCheem is simply a `basic English sentence <https://simple.wikipedia.org/wiki/Sentence#Basic_English_sentences>`_, which can be either **true** or **false** (basically a `proposition <https://www.lexico.com/definition/proposition>`_).
     #. Sentences can then be used to build If-Then **Rules**.
     #. A collection of rules forms a **Rule System**, which can then be explored, analysed and tested.
 
 #. Sentences (describing a situation) can be entered directly as part of a rule or simply pinned at the left side under 'Pinned sentences', until you figure out how to fit it into a rule.
 
-    #. Note that sentences should read grammatically correct whether it is standalone (e.g. **The person is guilty**) or as part of a rule (e.g. If the evidence is found then *the person is guilty*)
+    #. Note that sentences should read grammatically correct both standalone (e.g. **The person is guilty**) and as part of a rule (e.g. If the evidence is found then **the person is guilty**)
 
 #. Once you have at least one rule, by default you should see nodes appearing in the graph on the right. This shows the **correlation** between various situations/ideas (aka sentences) and rules.
-#. If you want to test and analyse the **causation** between various situations instead, select on 'Causation analysis' at the top-right instead.
+#. If you want to test and analyse the **causation** between various situations instead, selec 'Causation analysis' at the top-right instead.
 
     #. In this view, you can explore hypothetic situations described by any combination of sentences (true or false) mentioned in your rule system. 
 
-#. Whenever you want to save your rule system, just click on the save button at the top.
+#. Whenever you want to save your rule system, just click on the save icon at the top.
 
 
 User rights and permissions
 ^^^^^^^^^^^^
-#. deCheem utilises a graph-based user permission system, which basically means that instead of managing access rights through a static folder structure, it allows for any combination of user groups to fit your organisational needs.
+#. deCheem utilises a graph-based user permission system, which basically means that instead of managing access rights through a static and hierarchical folder structure, it allows for any combination of user groups to fit your organisational needs.
 #. There are three main kinds of permission entities in deCheem:
 
     #. **Users** - Like the one you used to log into deCheem, which is represented by your email address.
     #. **Rule Systems** - These are the rule systems that you create through the interface. They can be accessed by Users and/or User Groups.
     #. **User groups** - These are entities that either users or other user groups groups can belong to. User groups also serve as folders in deCheem for grouping Rule Systems together.
 
-#. Permissions for Rule Systems and User Groups are managed the same way. Click on the '+' sign in the Permission Overview interface
+#. Permissions for Rule Systems and User Groups are managed the same way. 
 
     #. **User groups** can be created, viewed and managed by doing a mouse-over on your user avatar at the top right and clicking **Manage User Groups**. 
     #. **Rule System** permissions can be viewed and managed by clicking on the permission management icon in the top right of the Rule System Editor.
@@ -58,7 +58,7 @@ deCheem has several features that are meant to allow philosophy/law educators an
 
 deCheem Rule Systems (in combination with deCheem causation analysis test cases) could easily be used to replace essays arguing a certain standpoint, or to show where various systems of belief concur and disagree.
 
-If you - as an educator - prefer to offer more guided assignments, deCheem also allows you to create 'rule assembly' assignments that help beginning students quickly understand the process of distilling ideas and rules from existing literature.
+If you - as an educator - prefer to offer more guided assignments, deCheem also allows you to create 'Rule Assembly' assignments that help beginning students quickly understand the process of distilling ideas and rules from existing literature.
 
 For teachers: Creating 'Rule Assembly' assignments 
 ^^^^^^^^^^^^^^^^^^^^
@@ -95,4 +95,4 @@ For teachers: Marking 'Rule Assembly' assignments
 
     * **Completeness** - percentage of the marking scheme's assertions that are also made by the student's rule system.
     * **Correctness** - percentage of the total set of assertions implied by the student's rule system that are also made by the marking scheme.
-#. These two measures are then averaged out to give a score reflecting the overall grade of the submitted Rule System.
+#. In the last column of the interface, you will see an average score of the Completeness and Correctness of the rule system.
