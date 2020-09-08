@@ -50,11 +50,13 @@ Use words like "the" and "in question" to narrow the scope of your rule, and ref
 
 
 
-Using 'And' and 'And or' right
+Using 'And' right
 ----------------------------------------------------------
+Using 'And' right in deCheem is essential to writing rules that behave correctly. 
+
 The following two rules sound similar, but actually can mean very different things:
 
-**'AND' within a situation **
+**'AND' within a situation**
 
   If we are in a situation where **the cat is blue, furry** then it **is** a situation where **the cat is friendly**.
   
@@ -62,7 +64,7 @@ The following two rules sound similar, but actually can mean very different thin
 
 **'AND' between situations**
 
-  If we are in a situation where **the cat is blue** and/or **the cat is furry** is **Always** a situation where **the cat is friendly**.
+  If we are in a situation where **the cat is blue** and or **the cat is furry** is **Always** a situation where **the cat is friendly**.
 
 The first one implies that only when a cat is *both* blue *and* furry is it also friendly (meaning a cat that is only blue and not furry is not friendly).
 
